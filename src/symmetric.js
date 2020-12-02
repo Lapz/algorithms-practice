@@ -1,4 +1,4 @@
-function sym(...args) {
+export function sym(...args) {
   return args.reduce((a, b) => {
     let result = [];
 
